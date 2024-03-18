@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "01a32b87-37b9-4d96-a457-4152120839be",
+		"name": "CH-3-Wedens",
+		"description": "API documentation for Binar FSW Chapter 3 Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30246189"
+	},
+	"item": [
+		{
+			"name": "GET /",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/cars",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /cars/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/cars/07b964f7-859e-4ef4-8d2e-de6006f40cdc",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cars",
+						"07b964f7-859e-4ef4-8d2e-de6006f40cdc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /cars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"plate\": \"TEST\",\r\n    \"manufacture\": \"TEST\",\r\n    \"model\": \"TEST\",\r\n    \"image\": \"TEST\",\r\n    \"rentPerDay\": 200000,\r\n    \"capacity\": 2,\r\n    \"description\": \" BTEST\",\r\n    \"availableAt\": \"2022-03-23T15:49:05.563Z\",\r\n    \"transmission\": \"Automatic\",\r\n    \"available\": true,\r\n    \"type\": \"Sedan\",\r\n    \"year\": 2022,\r\n    \"options\": [\r\n        \"Cruise Control\",\r\n        \"TEST\",\r\n        \"Tinted Glass\",\r\n        \"Tinted Glass\",\r\n        \"AM/FM Stereo\"\r\n    ],\r\n    \"specs\": [\r\n        \"TEST\",\r\n        \"Leather-wrapped shift knob\",\r\n        \"Glove box lamp\",\r\n        \"Air conditioning w/in-cabin microfilter\",\r\n        \"Body color folding remote-controlled pwr mirrors\",\r\n        \"Dual-stage front airbags w/occupant classification system\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/cars",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT /cars/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"plate\": \"TESTPUT2\",\r\n    \"manufacture\": \"TESTPUT2\",\r\n    \"model\": \"TESTPUT2\",\r\n    \"image\": \"TESTPUT2\",\r\n    \"rentPerDay\": 200000,\r\n    \"capacity\": 2,\r\n    \"description\": \" TESTPUT2\",\r\n    \"availableAt\": \"2022-03-23T15:49:05.563Z\",\r\n    \"transmission\": \"Automatic\",\r\n    \"available\": true,\r\n    \"type\": \"Sedan\",\r\n    \"year\": 2022,\r\n    \"options\": [\r\n        \"Cruise Control\",\r\n        \"TESTPUT2\",\r\n        \"Tinted Glass\",\r\n        \"Tinted Glass\",\r\n        \"AM/FM Stereo\"\r\n    ],\r\n    \"specs\": [\r\n        \"TESTPUT2\",\r\n        \"Leather-wrapped shift knob\",\r\n        \"Glove box lamp\",\r\n        \"Air conditioning w/in-cabin microfilter\",\r\n        \"Body color folding remote-controlled pwr mirrors\",\r\n        \"Dual-stage front airbags w/occupant classification system\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/cars/07b964f7-859e-4ef4-8d2e-de6006f40cdc",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cars",
+						"07b964f7-859e-4ef4-8d2e-de6006f40cdc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE /cars/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/cars/07b964f7-859e-4ef4-8d2e-de6006f40cdc",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cars",
+						"07b964f7-859e-4ef4-8d2e-de6006f40cdc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
