@@ -49,14 +49,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:4000/cars/07b964f7-859e-4ef4-8d2e-de6006f40cdc",
+					"raw": "localhost:4000/cars/567af667-ed6a-48a5-a2b6-6ba027f899a3",
 					"host": [
 						"localhost"
 					],
 					"port": "4000",
 					"path": [
 						"cars",
-						"07b964f7-859e-4ef4-8d2e-de6006f40cdc"
+						"567af667-ed6a-48a5-a2b6-6ba027f899a3"
 					]
 				}
 			},
@@ -69,7 +69,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"plate\": \"TEST\",\r\n    \"manufacture\": \"TEST\",\r\n    \"model\": \"TEST\",\r\n    \"image\": \"TEST\",\r\n    \"rentPerDay\": 200000,\r\n    \"capacity\": 2,\r\n    \"description\": \" BTEST\",\r\n    \"availableAt\": \"2022-03-23T15:49:05.563Z\",\r\n    \"transmission\": \"Automatic\",\r\n    \"available\": true,\r\n    \"type\": \"Sedan\",\r\n    \"year\": 2022,\r\n    \"options\": [\r\n        \"Cruise Control\",\r\n        \"TEST\",\r\n        \"Tinted Glass\",\r\n        \"Tinted Glass\",\r\n        \"AM/FM Stereo\"\r\n    ],\r\n    \"specs\": [\r\n        \"TEST\",\r\n        \"Leather-wrapped shift knob\",\r\n        \"Glove box lamp\",\r\n        \"Air conditioning w/in-cabin microfilter\",\r\n        \"Body color folding remote-controlled pwr mirrors\",\r\n        \"Dual-stage front airbags w/occupant classification system\"\r\n    ]\r\n}",
+					"raw": "{\r\n    \"plate\": \"TEST\",\r\n    \"manufacture\": \"TEST\",\r\n    \"model\": \"TEST\",\r\n    \"image\": \"./images/img_car.png\",\r\n    \"rentPerDay\": 200000,\r\n    \"capacity\": 2,\r\n    \"description\": \"TEST DESC\",\r\n    \"availableAt\": \"2022-03-23T15:49:05.563Z\",\r\n    \"transmission\": \"Automatic\",\r\n    \"available\": true,\r\n    \"type\": \"Sedan\",\r\n    \"year\": 2022,\r\n    \"options\": [\r\n        \"Cruise Control\",\r\n        \"TEST\",\r\n        \"Tinted Glass\",\r\n        \"Tinted Glass\",\r\n        \"AM/FM Stereo\"\r\n    ],\r\n    \"specs\": [\r\n        \"TEST\",\r\n        \"Leather-wrapped shift knob\",\r\n        \"Glove box lamp\",\r\n        \"Air conditioning w/in-cabin microfilter\",\r\n        \"Body color folding remote-controlled pwr mirrors\",\r\n        \"Dual-stage front airbags w/occupant classification system\"\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -96,7 +96,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"plate\": \"TESTPUT2\",\r\n    \"manufacture\": \"TESTPUT2\",\r\n    \"model\": \"TESTPUT2\",\r\n    \"image\": \"TESTPUT2\",\r\n    \"rentPerDay\": 200000,\r\n    \"capacity\": 2,\r\n    \"description\": \" TESTPUT2\",\r\n    \"availableAt\": \"2022-03-23T15:49:05.563Z\",\r\n    \"transmission\": \"Automatic\",\r\n    \"available\": true,\r\n    \"type\": \"Sedan\",\r\n    \"year\": 2022,\r\n    \"options\": [\r\n        \"Cruise Control\",\r\n        \"TESTPUT2\",\r\n        \"Tinted Glass\",\r\n        \"Tinted Glass\",\r\n        \"AM/FM Stereo\"\r\n    ],\r\n    \"specs\": [\r\n        \"TESTPUT2\",\r\n        \"Leather-wrapped shift knob\",\r\n        \"Glove box lamp\",\r\n        \"Air conditioning w/in-cabin microfilter\",\r\n        \"Body color folding remote-controlled pwr mirrors\",\r\n        \"Dual-stage front airbags w/occupant classification system\"\r\n    ]\r\n}",
+					"raw": "{\r\n    \"plate\": \"TESTPUT2\",\r\n    \"manufacture\": \"TESTPUT2\",\r\n    \"model\": \"TESTPUT2\",\r\n    \"image\": \"./images/img_car.png\",\r\n    \"rentPerDay\": 200000,\r\n    \"capacity\": 2,\r\n    \"description\": \" TESTPUT2\",\r\n    \"availableAt\": \"2022-03-23T15:49:05.563Z\",\r\n    \"transmission\": \"Automatic\",\r\n    \"available\": true,\r\n    \"type\": \"Sedan\",\r\n    \"year\": 2022,\r\n    \"options\": [\r\n        \"Cruise Control\",\r\n        \"TESTPUT2\",\r\n        \"Tinted Glass\",\r\n        \"Tinted Glass\",\r\n        \"AM/FM Stereo\"\r\n    ],\r\n    \"specs\": [\r\n        \"TESTPUT2\",\r\n        \"Leather-wrapped shift knob\",\r\n        \"Glove box lamp\",\r\n        \"Air conditioning w/in-cabin microfilter\",\r\n        \"Body color folding remote-controlled pwr mirrors\",\r\n        \"Dual-stage front airbags w/occupant classification system\"\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -104,14 +104,14 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:4000/cars/07b964f7-859e-4ef4-8d2e-de6006f40cdc",
+					"raw": "localhost:4000/cars/567af667-ed6a-48a5-a2b6-6ba027f899a3",
 					"host": [
 						"localhost"
 					],
 					"port": "4000",
 					"path": [
 						"cars",
-						"07b964f7-859e-4ef4-8d2e-de6006f40cdc"
+						"567af667-ed6a-48a5-a2b6-6ba027f899a3"
 					]
 				}
 			},
@@ -123,14 +123,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:4000/cars/07b964f7-859e-4ef4-8d2e-de6006f40cdc",
+					"raw": "localhost:4000/cars/567af667-ed6a-48a5-a2b6-6ba027f899a3",
 					"host": [
 						"localhost"
 					],
 					"port": "4000",
 					"path": [
 						"cars",
-						"07b964f7-859e-4ef4-8d2e-de6006f40cdc"
+						"567af667-ed6a-48a5-a2b6-6ba027f899a3"
 					]
 				}
 			},
